@@ -1,15 +1,3 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-#def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    #print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
 import random
 
 #This is a dictinary to save the states of the hangman
@@ -144,7 +132,7 @@ def deserialization(file_path):
 if __name__ == '__main__':
     MAX_TRIES = 6
     old_letters_guessed = []
-    file1 = r"C:\Users\Avishai Hagever\Desktop\file1.txt"
+    file1 = r"C:\Users\Avishai Hagever\Desktop\file1.txt" #change here path location
     num_of_tries = 0
     good_guess = False
 
